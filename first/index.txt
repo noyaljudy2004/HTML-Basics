@@ -1,1 +1,10 @@
 html basics------
+alt+z minimize para
+em for italic
+sup for superscript
+sub for subscript
+tr for row
+th for table header
+td for column
+list definitionlist dl,orderedlist ol,unorderedlist ul
+alt+w for selecting para
