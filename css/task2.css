@@ -1,0 +1,27 @@
+h1{
+    font-size: 30px;
+font-style: calc();
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(187, 249, 0);
+}
+.round-image {
+    /* border radius to become circle  height,width*/
+    align-items: center;
+    justify-content: center;
+      width: 300px;
+      height: 300px;
+      border-radius: 100%; 
+      object-fit: cover; }
+      p{
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(248, 6, 6);
+
+
+      }
+      button
+      {
+         padding: 10px 20px;
+         border-radius: 10px;
+      }

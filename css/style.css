@@ -1,0 +1,32 @@
+h2{
+    color: blue;
+}
+ul{
+    color: rgb(9, 245, 25);
+}
+h3,ul{
+    font-size: 27px;
+}
+.group{
+    text-decoration: underline;
+}
+*{
+    font-style: italic;
+    /* universal selector to select all element to change font style */
+}
+div h1{
+    color: blue;
+    /* descented selector */
+}
+div>p{
+    background-color: burlywood;
+    /* child selector */
+}
+p~h2{
+    font-size: 40px;
+    /* sibling selector */
+}
+/* immediate sibling */
+h1+p{
+    text-decoration: underline;
+}

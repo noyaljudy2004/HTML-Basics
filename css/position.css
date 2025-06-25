@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image:url('https://i0.wp.com/picjumbo.com/wp-content/uploads/green-natural-background-with-trees-and-wooden-foundation-free-image.jpeg?w=600&quality=80');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    background-color: dimgray;
+    color: darkred;
+    text-decoration: underline yellow;
+    font-style: italic;
+    font-size: 30px;
+    border: 3px solid black;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+    color: gold;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(110, 253, 2);
+}
+.col{
+    border: 2px solid yellow;
+    background-color: darkred;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    margin-left: 10px;
+}
