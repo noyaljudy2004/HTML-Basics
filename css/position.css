@@ -11,7 +11,7 @@
 }
 h1{
     background-color: dimgray;
-    color: darkred;
+    color: rgb(5, 249, 212);
     text-decoration: underline yellow;
     font-style: italic;
     font-size: 30px;
@@ -36,4 +36,20 @@ nav{
     width: 250px;
     position: absolute;
     margin-left: 10px;
+    top: 0;
+    left: 30px;
+}
+.row{
+    position: relative;
+}
+
+#box2{
+    z-index: 1;
+    margin-left: 25%;
+}
+#box3{
+    margin-left: 50%;
+}
+#box4{
+    margin-left: 75%;
 }
