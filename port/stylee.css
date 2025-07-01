@@ -6,7 +6,7 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .link{
     color:black ;
@@ -58,3 +58,157 @@ nav{
     text-decoration: none;
     border-radius: 10px;
 }
+
+
+
+.homeing{
+    /* margin-right: 100%; */
+    position: absolute;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    transition: 5s;
+}
+#images{
+    position: relative;
+    padding-top: 60px;
+
+
+}
+#home{
+    display: flex;
+}
+#images:hover #shape{
+    bottom: 30px;
+}
+#images:hover #guy{
+    left: -30px;
+}
+#about{
+    margin-top: 40px;
+}
+.section-head{
+    text-align: center;}
+    .main-head{
+
+   
+    font-family: "Creepster", system-ui;
+    font-size: 45px;
+}
+.sub-head{
+    font-family:  "Satisfy", cursive;
+    font-size: 35px;
+    color: rgb(17, 255, 0);
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+#abt-img{
+    width: 500px;
+}
+.about-text{
+    padding: 10px;
+}
+.about-text p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: .8cm;
+}
+.info span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.skill-content{
+    /* same flex property */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 2rem;
+    margin: opx 20px;
+
+
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 18px 10px;
+    
+}
+  .skill-head,.skill-perc{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .base-bar{
+    width: 100%;
+    height: .5rem;
+    background-color: black;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 0;
+  }
+  #html-bar{
+    background-color: rgb(248, 5, 5);
+    width: 93%;
+  }
+  #html-ab{
+    background-color: rgb(248, 5, 5); 
+    width: 83%;
+  }
+  #html-ac{
+    background-color: rgb(248, 5, 5); 
+    width: 70%;
+  }
+  #html-ad{
+    background-color: rgb(248, 5, 5); 
+    width: 60%;
+  }
+  .icon-collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+  }
+  .main-head{
+    text-align: center;
+  }
+  .icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+  }
+  .social{
+    color: black;
+  }
+  .social:hover{
+    color: white;
+  }
+  .icon:hover{
+    background-image: linear-gradient(to bottom right,red,yellow);
+    animation: rotate 2s;
+  }
+ @keyframes rotate{
+    0%{
+        transform: rotate(50deg);
+    }
+     25%{
+        transform: rotate(-50deg);
+    }
+     50%{
+        transform: rotate(50deg);
+    }
+     80%{
+        transform: rotate(50deg);
+    }
+     100%{
+        transform: rotate(-50deg);
+    }
+ }
