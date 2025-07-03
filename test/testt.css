@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    height: 1070px;
+    position: relative;
+}
+.sidebar{
+    
+    background-color: rgb(23, 66, 112);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: whitesmoke;
+    line-height: 1.5rem;
+    font-family:  "Concert One", sans-serif;;
+}
+h2>span{
+    color: rgb(38, 133, 38);
+}
+h1{
+    font-size: 40px;
+    line-height: 10rem;
+    color: white;
+}
+.image{
+    background-color: aqua;
+    width: 80%;
+    margin-left: 20%;
+    position: absolute;
+    height: 30%;
+    
+    
+}
+img{
+    width:100%;
+    height: 100%;
+    
+}
+.sub{
+    color: rgb(15, 57, 102);
+    text-align:left;
+    padding: 10px;
+    font-size: 35px;
+    font-family:  "Noto Serif", serif;;
+    font-weight:normal;
+}
+.about{
+   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 250px;
+    
+}
+.aboutimage{
+    
+    width: 20%;
+    margin: 25px;
+    height: 300px;
+
+}
+#para1{
+    margin:0px 20px;
+}
+
+.about-cont{
+    
+    position: absolute;
+    margin-left: 25%;
+    height: 100%;
+    width:75%;
+    text-align: justify;
+    
+   
+}
+#button{
+    border: 2px solid rgb(17, 17, 17);
+    background-color:rgb(40, 119, 204); 
+    color: white;
+    margin-right: 75%;
+    margin-top: 5%;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    
+}
+.abt{
+    text-align: justify;
+    color:rgb(40, 119, 204);  
+    
+}
+/* p{
+    line-height: 1.5rem;
+} */
+
+.gallery{
+    width:100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery-image{
+    height: 170px;
+    width: 150px;
+    border: 2px solid black;
+    
+ 
+}
+img{
+    width: 100%;
+    height:100%;
+}
+
+#gal-head{
+    color: rgb(40, 119, 204);
+    text-align: justify;
+    padding-left: 80px;
+
+}
+.gallery{
+    height:25%;
+
+}
+#paraa{
+    font-size: 15px;
+}

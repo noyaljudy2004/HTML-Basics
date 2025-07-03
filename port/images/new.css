@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    height: 1070px;
+    position: relative;
+}
+.sidebar{
+    
+    background-color: rgb(40, 119, 204);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: whitesmoke;
+    line-height: 1.5rem;
+}
+h2>span{
+    color: green;
+}
+h1{
+    font-size: 40px;
+    line-height: 10rem;
+    color: white;
+}
+.image{
+    background-color: aqua;
+    width: 80%;
+    margin-left: 20%;
+    position: absolute;
+    height: 30%;
+    
+    
+}
+img{
+    width:100%;
+    height: 100%;
+    
+}
+.sub{
+    color: rgb(40, 119, 204);
+    text-align: center;
+}
+.about{
+   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 250px;
+    
+}
+.aboutimage{
+    
+    width: 20%;
+    margin: 25px;
+    height: 250px;
+
+}
+#para1{
+    margin:0px 20px;
+}
+
+.about-cont{
+    
+    position: absolute;
+    margin-left: 25%;
+    height: 100%;
+    width:75%;
+    text-align: justify;
+    
+   
+}
+#button{
+    border: 2px solid black;
+    background-color:rgb(40, 119, 204); 
+    text-decoration-color: white;
+    margin-right: 75%;
+    margin-top: 5%;
+    padding: 10px 20px ;
+    
+}
+.abt{
+    text-align: justify;
+    color:rgb(40, 119, 204);  
+    
+}
+/* p{
+    line-height: 1.5rem;
+} */
+
+.gallery{
+    width:100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery-image{
+    height: 170px;
+    width: 150px;
+    border: 2px solid black;
+}
+img{
+    width: 100%;
+    height:100%;
+}
+
+#gal-head{
+    color: rgb(40, 119, 204);
+    text-align: justify;
+    padding-left: 55px;
+
+}
+.gallery{
+    height:25%;
+
+}
